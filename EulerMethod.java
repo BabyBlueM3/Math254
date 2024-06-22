@@ -16,10 +16,8 @@ public class EulerMethod{
     public static void main (String [] args) {
         
         double h = 0.25;
-        double x_0 = 0.0;
         double x_f = 0.5;
         double y_0 = 2.0;
-        double y_n;
         double y_i;
 
 
