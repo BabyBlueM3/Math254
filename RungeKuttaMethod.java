@@ -50,7 +50,7 @@ public class RungeKuttaMethod {
             System.out.println("k_4 =" + k_4);
 
 
-            System.out.println("y_1 =" + y_i);
+            System.out.println("y(1/2) =" + y_i);
 
         }
     }

@@ -30,9 +30,10 @@ public class EulerMethod{
 
             i = i + h;
 
-            System.out.println(y_i);
+            System.out.println("y(1/2) =" + y_i);
 
         }
+        
     }
 }
 
