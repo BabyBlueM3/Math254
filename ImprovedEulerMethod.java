@@ -1,4 +1,4 @@
-public class EulerMethod{
+public class ImprovedEulerMethod{
 
 
     /*  This program starts by having a user input the intitial step size, initial x, and initial y value for a given equation. 
@@ -19,12 +19,13 @@ public class EulerMethod{
         double y_i;
 
 
-
         for(double i = 0; i < x_f;){
             System.out.println(i);
 
 
-            y_i = y_0 + h*(y_0 -5*(i) + 2); 
+            y_i = y_0 + (h/2)*((y_0 -5*(i) + 2)+  ((y_0 + (h*(y_0 -5*(i) + 2))) -5*(i+h) + 2)   ); 
+
+            //System.out.println(y_i);
 
             y_0 = y_i;
 
